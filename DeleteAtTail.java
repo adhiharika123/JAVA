@@ -27,7 +27,7 @@ public class DeleteAtTail {
 
     }
 
-    //Insert at Begin
+    //Delete at End
     public static Node deleteattail(Node head){
         if(head == null || head.next == null){
             return null;
